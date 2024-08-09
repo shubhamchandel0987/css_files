@@ -1,0 +1,57 @@
+.box{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(red,green);
+    background-image: linear-gradient(to left, red,green);
+    background-image: linear-gradient(to top , red,green);
+    background-image: linear-gradient(to bottom right ,red,green);
+    background-image: linear-gradient(45deg,red,green);
+    background-image: linear-gradient(rgba(255,0,0,0), rgba(0,0,255,1));
+    background-image: linear-gradient(orange,white,green);
+}
+.box-radial
+{
+    border: 1px solid black;
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    background-image: radial-gradient(circle,red,green ,yellow);
+    background-image: radial-gradient(yellow 5%,orange 10%,red 50%);
+}
+.h{
+    text-shadow: 3px 3px 3px red;
+    text-shadow: 3px 3px 3px red,5px 5px 5px green;
+}
+.h-box
+{
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+    margin :10px;
+    box-shadow: 10px 10px 10px orange,15px 15px 15px white, 20px 20px 20px green;
+    color:green;
+}
+
+.max-height{
+    border: 1px solid black;
+    margin: 10px;
+    max-height: 100px;
+    width: 200px;
+    overflow: scroll;
+}
+.min-height{
+    border: 1px solid black;
+    margin: 10px;
+    min-height: 100px;
+    width: 200px;
+}
+.Movement
+{
+    margin :10px;
+    background-color: greenyellow;
+    /* transform: translateY(100px);*/
+   /* transform: rotate(-44deg);*/
+   transform: scale(2,4);
+   transform: skew(-45deg) ;
+}

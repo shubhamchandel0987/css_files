@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .A{
+            font-size: larger;
+            background-color: lightblue;
+        }
+        .B{
+            font-size: smaller;
+            background-color: lightgreen;
+        }
+        #red
+        {
+            font-size: larger;
+            color:red;
+        }
+        .link-class:hover
+        {
+            color:black;
+            font-size:smaller;
+        }
+        #link-id:hover
+        {
+           color: green;
+           font-size:smaller;
+        }
+        p{
+            color:green;
+        }
+        .col-red{
+            color:red;
+        }
+        #col-brown{
+            color:brown;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border: 1px solid black;
+            margin: 8px;
+            padding: 10px; 
+            box-sizing: border-box;
+        }
+        #col-or{
+            background-color: #ff0000;
+        }
+        #col-wht{
+            background-color: rgb(15,89,255);
+        }
+        #col-gr{
+            background-color:green;
+        }
+    </style>
+</head>
+<body>
+     
+    <p>This is my first paragraph</p>
+    <h1 class="A">This is first head</h1>
+    <h2 class="A">This is second head</h2>
+    <h3 class="A">This is third head</h3>
+    <h4 class="B">This is fourth head</h4>
+    <h5 class="B">This is fifth head</h5>
+    <button id ="red">Submit</button> 
+    <a id="link-id" class="link-class" href="www.wikipedia.com">Go to wikipedia</a>
+
+    <!--Types of CSS-->
+    <p style="font-style:italic">This is inline css</p>
+    <h2>This is internal css</h2>
+
+    <!--Specicity-->
+    <p id ="col-brown" style="color:aqua" class="col-red" >Lorem ipsum dolor sit amet consectetur.</p>
+    <!--priority:-  1. paragraph tag
+                    2. class
+                    3. id
+                    4. style(inline CSS)
+                    5. important -->
+
+    <!--This is box class-->
+    <div class="box" id="col-or">Shubham</div>
+    <div class="box" id="col-wht">Shubham</div>
+    <div class="box" id="col-gr">Shubham</div>
+
+    <!--Colors in CSS-->
+    
+    <!--1. hexadecimal color(000000-ffffff)-->
+
+    <!--2. RGB value(0,0,225)-->
+
+    <!--3. predefined/Cross Browser color Names-->
+
+    
+
+</body>
+</html>
